@@ -131,13 +131,13 @@ const Share = () => {
         style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>공유하기</Title>
       </Divider>
-      <KakaoTalkShareButton
+      {/* <KakaoTalkShareButton
         icon={<MessageFilled style={{ fontSize: "1.5rem" }} />}
         id="sendKakao"
         size="large"
         onClick={createKakaoButton}>
         카카오톡으로 공유하기
-      </KakaoTalkShareButton>
+      </KakaoTalkShareButton> */}
       <CopyToClipboard text={WEDDING_INVITATION_URL}>
         <LinkShareButton
           icon={<LinkOutlined style={{ fontSize: "1.5rem" }} />}

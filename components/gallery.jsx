@@ -21,7 +21,6 @@ const photos = [
   "/assets/wedding/DSC00238-.webp",
   "/assets/wedding/DSC00848.webp",
   "/assets/wedding/DSC00680.webp",
-  "/assets/wedding/DSC00444.webp",
 ];
 
 // 스타일링
